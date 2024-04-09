@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['isendofword_4434',['isEndofWord',['../d0/d3e/classdata__structures_1_1trie.html#a4cb0f775b5a4bc14a6d39b5c93883eb6',1,'data_structures::trie']]],
-  ['isprime_4435',['isprime',['../db/d0d/prime__factorization_8cpp.html#a7fe38b570a51e448430d6a0f072c2f23',1,'prime_factorization.cpp']]]
+  ['good_5fsuffix_0',['good_suffix',['../dd/d5a/structstrings_1_1boyer__moore_1_1pattern.html#a3d62f615a0171a5d77e7018f704f3a7e',1,'strings::boyer_moore::pattern']]],
+  ['grey_1',['GREY',['../da/d4b/depth__first__search__with__stack_8cpp.html#a43e30173f12330e85cce6239a277527e',1,'depth_first_search_with_stack.cpp']]]
 ];
