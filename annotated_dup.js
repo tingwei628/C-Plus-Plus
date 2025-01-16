@@ -27,7 +27,7 @@ var annotated_dup =
       [ "stack_using_queue", null, [
         [ "Stack", "db/d5b/structdata__structures_1_1stack__using__queue_1_1_stack.html", "db/d5b/structdata__structures_1_1stack__using__queue_1_1_stack" ]
       ] ],
-      [ "treap", null, [
+      [ "treap", "dd/d2e/namespacedata__structures_1_1treap.html", [
         [ "Treap", "d5/d95/structdata__structures_1_1treap_1_1_treap.html", "d5/d95/structdata__structures_1_1treap_1_1_treap" ]
       ] ],
       [ "tree_234", null, [
@@ -42,6 +42,7 @@ var annotated_dup =
       [ "Node", "d9/d49/structdata__structures_1_1_node.html", "d9/d49/structdata__structures_1_1_node" ],
       [ "SegmentTree", "dd/d95/classdata__structures_1_1_segment_tree.html", "dd/d95/classdata__structures_1_1_segment_tree" ],
       [ "SkipList", "d4/d90/classdata__structures_1_1_skip_list.html", "d4/d90/classdata__structures_1_1_skip_list" ],
+      [ "Stack", "d2/dc8/classdata__structures_1_1_stack.html", "d2/dc8/classdata__structures_1_1_stack" ],
       [ "trie", "d0/d3e/classdata__structures_1_1trie.html", "d0/d3e/classdata__structures_1_1trie" ]
     ] ],
     [ "divide_and_conquer", "dd/dba/namespacedivide__and__conquer.html", [
@@ -65,15 +66,20 @@ var annotated_dup =
       [ "is_graph_bipartite", null, [
         [ "Graph", "de/d00/classgraph_1_1is__graph__bipartite_1_1_graph.html", "de/d00/classgraph_1_1is__graph__bipartite_1_1_graph" ]
       ] ],
+      [ "topological_sort", null, [
+        [ "Graph", "d5/dec/classgraph_1_1topological__sort_1_1_graph.html", "d5/dec/classgraph_1_1topological__sort_1_1_graph" ]
+      ] ],
       [ "Graph", "dc/d61/classgraph_1_1_graph.html", "dc/d61/classgraph_1_1_graph" ],
       [ "HKGraph", "d8/d69/classgraph_1_1_h_k_graph.html", "d8/d69/classgraph_1_1_h_k_graph" ],
       [ "LowestCommonAncestor", "d9/d23/classgraph_1_1_lowest_common_ancestor.html", "d9/d23/classgraph_1_1_lowest_common_ancestor" ],
       [ "RootedTree", "d0/d58/classgraph_1_1_rooted_tree.html", "d0/d58/classgraph_1_1_rooted_tree" ]
     ] ],
     [ "greedy_algorithms", "d2/d90/namespacegreedy__algorithms.html", [
-      [ "dijkstra", null, [
+      [ "dijkstra", "d2/d2f/namespacegreedy__algorithms_1_1dijkstra.html", [
         [ "Graph", "d2/daa/classgreedy__algorithms_1_1dijkstra_1_1_graph.html", "d2/daa/classgreedy__algorithms_1_1dijkstra_1_1_graph" ]
-      ] ]
+      ] ],
+      [ "BinaryAddition", "de/df6/classgreedy__algorithms_1_1_binary_addition.html", "de/df6/classgreedy__algorithms_1_1_binary_addition" ],
+      [ "DigitSeparation", "da/d49/classgreedy__algorithms_1_1_digit_separation.html", "da/d49/classgreedy__algorithms_1_1_digit_separation" ]
     ] ],
     [ "hashing", "d6/d0c/namespacehashing.html", [
       [ "sha256", null, [
@@ -121,6 +127,11 @@ var annotated_dup =
       ] ]
     ] ],
     [ "others", "d0/d6f/namespaceothers.html", [
+      [ "Cache", "db/dde/namespaceothers_1_1_cache.html", [
+        [ "D_Node", "de/d21/classothers_1_1_cache_1_1_d___node.html", "de/d21/classothers_1_1_cache_1_1_d___node" ],
+        [ "LFUCache", "df/d8f/classothers_1_1_cache_1_1_l_f_u_cache.html", "df/d8f/classothers_1_1_cache_1_1_l_f_u_cache" ],
+        [ "LRUCache", "d8/d2e/classothers_1_1_cache_1_1_l_r_u_cache.html", "d8/d2e/classothers_1_1_cache_1_1_l_r_u_cache" ]
+      ] ],
       [ "iterative_tree_traversals", null, [
         [ "BinaryTree", "d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree.html", "d9/d12/classothers_1_1iterative__tree__traversals_1_1_binary_tree" ],
         [ "Node", "d2/d9a/structothers_1_1iterative__tree__traversals_1_1_node.html", "d2/d9a/structothers_1_1iterative__tree__traversals_1_1_node" ]
@@ -165,7 +176,7 @@ var annotated_dup =
       [ "stats_computer1", "d7/d7c/classstatistics_1_1stats__computer1.html", "d7/d7c/classstatistics_1_1stats__computer1" ],
       [ "stats_computer2", "d8/dab/classstatistics_1_1stats__computer2.html", "d8/dab/classstatistics_1_1stats__computer2" ]
     ] ],
-    [ "std", "d8/dcc/namespacestd.html", [
+    [ "std", null, [
       [ "is_arithmetic< uint128_t >", "d2/dfc/structstd_1_1is__arithmetic_3_01uint128__t_01_4.html", null ],
       [ "is_arithmetic< uint256_t >", "dc/d6d/structstd_1_1is__arithmetic_3_01uint256__t_01_4.html", null ],
       [ "is_integral< uint128_t >", "d2/dd4/structstd_1_1is__integral_3_01uint128__t_01_4.html", null ],
@@ -174,47 +185,62 @@ var annotated_dup =
       [ "is_unsigned< uint256_t >", "df/d99/structstd_1_1is__unsigned_3_01uint256__t_01_4.html", null ]
     ] ],
     [ "strings", "df/dcb/namespacestrings.html", [
-      [ "boyer_moore", null, [
+      [ "boyer_moore", "d0/dbc/namespacestrings_1_1boyer__moore.html", [
         [ "pattern", "dd/d5a/structstrings_1_1boyer__moore_1_1pattern.html", "dd/d5a/structstrings_1_1boyer__moore_1_1pattern" ]
       ] ]
     ] ],
+    [ "tests", "d9/df4/namespacetests.html", [
+      [ "CircularLinkedList", "dc/d53/classtests_1_1_circular_linked_list.html", "dc/d53/classtests_1_1_circular_linked_list" ],
+      [ "Node", "d6/d7c/structtests_1_1_node.html", "d6/d7c/structtests_1_1_node" ]
+    ] ],
+    [ "adaline", "d8/df2/classadaline.html", "d8/df2/classadaline" ],
     [ "binary_search_tree", "d9/dde/classbinary__search__tree.html", "d9/dde/classbinary__search__tree" ],
     [ "Btree", "d9/d90/struct_btree.html", null ],
+    [ "catalan_numbers", "dc/d1f/classcatalan__numbers.html", "dc/d1f/classcatalan__numbers" ],
     [ "cll", "d5/d15/classcll.html", null ],
-    [ "compare", "d1/db3/structcompare.html", null ],
     [ "Compare", "de/d4a/class_compare.html", "de/d4a/class_compare" ],
+    [ "compare", "d1/db3/structcompare.html", null ],
     [ "Complex", "da/d5a/class_complex.html", "da/d5a/class_complex" ],
     [ "CycleCheck", "d3/dbb/class_cycle_check.html", "d3/dbb/class_cycle_check" ],
     [ "double_linked_list", "d9/dee/classdouble__linked__list.html", null ],
     [ "dsu", "dd/d1f/classdsu.html", "dd/d1f/classdsu" ],
     [ "EasterYearMonthDay", "d1/df6/class_easter_year_month_day.html", "d1/df6/class_easter_year_month_day" ],
     [ "Edge", "d7/d77/class_edge.html", "d7/d77/class_edge" ],
+    [ "Entry", "dd/d3b/struct_entry.html", "dd/d3b/struct_entry" ],
     [ "FCFS", "dd/dca/class_f_c_f_s.html", "dd/dca/class_f_c_f_s" ],
     [ "Graph", "da/d9a/class_graph.html", "da/d9a/class_graph" ],
     [ "hash_chain", "dd/d1c/classhash__chain.html", "dd/d1c/classhash__chain" ],
+    [ "HKGraph", "df/dee/class_h_k_graph.html", "df/dee/class_h_k_graph" ],
     [ "Item", "db/d66/struct_item.html", null ],
     [ "large_number", "db/d82/classlarge__number.html", "db/d82/classlarge__number" ],
     [ "linkedlist", "d0/dff/structlinkedlist.html", null ],
     [ "list", "d8/d10/structlist.html", "d8/d10/structlist" ],
     [ "ListNode", "d7/da4/struct_list_node.html", "d7/da4/struct_list_node" ],
+    [ "Longest_Substring", "da/d21/class_longest___substring.html", "da/d21/class_longest___substring" ],
     [ "MinHeap", "d2/d05/class_min_heap.html", "d2/d05/class_min_heap" ],
     [ "MinHeapNode", "d5/d29/struct_min_heap_node.html", null ],
     [ "mst", "d1/d77/structmst.html", null ],
-    [ "node", "d5/da1/structnode.html", null ],
     [ "Node", "db/d8b/struct_node.html", null ],
+    [ "node", "d5/da1/structnode.html", null ],
     [ "Point", "d8/dc8/struct_point.html", "d8/dc8/struct_point" ],
+    [ "priority_queue", "d1/d1b/classpriority__queue.html", "d1/d1b/classpriority__queue" ],
     [ "query", "dd/d1b/structquery.html", null ],
-    [ "queue", "db/da9/classqueue.html", "db/da9/classqueue" ],
     [ "Queue", "dc/db5/struct_queue.html", null ],
+    [ "queue", "db/da9/classqueue.html", "db/da9/classqueue" ],
     [ "RBtree", "d8/d72/class_r_btree.html", null ],
     [ "SegmentIntersection", "d4/db4/struct_segment_intersection.html", "d4/db4/struct_segment_intersection" ],
+    [ "SJF", "d7/d9f/class_s_j_f.html", "d7/d9f/class_s_j_f" ],
     [ "Solution", "dd/d4f/class_solution.html", null ],
     [ "stack", "d1/dc2/classstack.html", "d1/dc2/classstack" ],
     [ "stack_linkedList", "d2/dc4/classstack__linked_list.html", null ],
+    [ "stats_computer1", "d2/d0f/classstats__computer1.html", "d2/d0f/classstats__computer1" ],
+    [ "stats_computer2", "dc/d02/classstats__computer2.html", "dc/d02/classstats__computer2" ],
     [ "TestCase", "da/d86/struct_test_case.html", null ],
     [ "TestCases", "d5/d58/class_test_cases.html", "d5/d58/class_test_cases" ],
     [ "tower", "d2/d2c/structtower.html", "d2/d2c/structtower" ],
     [ "Trie", "dd/d2f/class_trie.html", "dd/d2f/class_trie" ],
     [ "uint128_t", "db/d9a/classuint128__t.html", "db/d9a/classuint128__t" ],
-    [ "uint256_t", "d1/d83/classuint256__t.html", "d1/d83/classuint256__t" ]
+    [ "uint256_t", "d1/d83/classuint256__t.html", "d1/d83/classuint256__t" ],
+    [ "unordered_set", "d3/d6d/classunordered__set.html", "d3/d6d/classunordered__set" ],
+    [ "vector", "d7/dfc/classvector.html", "d7/dfc/classvector" ]
 ];
