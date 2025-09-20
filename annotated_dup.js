@@ -139,9 +139,6 @@ var annotated_dup =
       [ "lru_cache", null, [
         [ "LRUCache", "d6/dae/classothers_1_1lru__cache_1_1_l_r_u_cache.html", "d6/dae/classothers_1_1lru__cache_1_1_l_r_u_cache" ]
       ] ],
-      [ "postfix_expression", null, [
-        [ "Stack", "d5/d8a/classothers_1_1postfix__expression_1_1_stack.html", "d5/d8a/classothers_1_1postfix__expression_1_1_stack" ]
-      ] ],
       [ "recursive_tree_traversals", null, [
         [ "BT", "dd/de1/classothers_1_1recursive__tree__traversals_1_1_b_t.html", "dd/de1/classothers_1_1recursive__tree__traversals_1_1_b_t" ],
         [ "Node", "d9/df7/structothers_1_1recursive__tree__traversals_1_1_node.html", "d9/df7/structothers_1_1recursive__tree__traversals_1_1_node" ]
@@ -217,6 +214,7 @@ var annotated_dup =
     [ "list", "d8/d10/structlist.html", "d8/d10/structlist" ],
     [ "ListNode", "d7/da4/struct_list_node.html", "d7/da4/struct_list_node" ],
     [ "Longest_Substring", "da/d21/class_longest___substring.html", "da/d21/class_longest___substring" ],
+    [ "MemorisedFactorial", "da/d15/class_memorised_factorial.html", "da/d15/class_memorised_factorial" ],
     [ "MinHeap", "d2/d05/class_min_heap.html", "d2/d05/class_min_heap" ],
     [ "MinHeapNode", "d5/d29/struct_min_heap_node.html", null ],
     [ "mst", "d1/d77/structmst.html", null ],
